@@ -2,7 +2,7 @@
     "name": "lbzy/host-config",
     "version":"1.0.0-dev",
     "description": "",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "lbzy",
@@ -16,12 +16,6 @@
     "autoload": {
         "psr-4": {
             "Lbzy\\HostConfig\\": "src/"
-        }
-    },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
         }
     }
 }
