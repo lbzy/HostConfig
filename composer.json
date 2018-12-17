@@ -1,0 +1,27 @@
+{
+    "name": "lbzy/host-config",
+    "version":"1.0.0-dev",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lbzy",
+            "email": "1293685219@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lbzy\\HostConfig\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
