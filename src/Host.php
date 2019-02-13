@@ -74,7 +74,7 @@ class Host
 				if (self::isRootHost($rootHostValue)) {
 					self::$rootHostKey 	= $rootHostKey;
 					self::$rootHost 	= $rootHostValue;
-					break;
+					return;
 				}
 			}
 			# 数组形式
@@ -86,7 +86,7 @@ class Host
 					if (self::isRootHost($rootHostVo)){
 						self::$rootHostKey 	= $rootHostKey;
 						self::$rootHost 	= $rootHostVo;
-						break;
+						return;
 					}
 				}
 			}
